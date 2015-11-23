@@ -1,0 +1,7 @@
+# 
+# iRedemptFreedomMod banning config
+# Warning: modification of this file is not recommended
+ips:
+- 64.58.147.242:GetSliced:none:0:none
+uuids:
+- deadbeef-a730-fc9d-eac6-3f03816ab3c9:GetSliced:none:0:none
