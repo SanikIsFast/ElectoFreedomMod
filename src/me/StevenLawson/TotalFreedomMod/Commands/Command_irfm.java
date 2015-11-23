@@ -50,7 +50,7 @@ public class Command_irfm extends TFM_Command {
         }
 
         TFM_Util.playerMsg(sender_p, "§9§ki§r §7|§7i§4Redempt§cFreedom§9Mod§7| §9§ki§r", ChatColor.GOLD);
-        TFM_Util.playerMsg(sender_p, "Edited by: iHess", ChatColor.GREEN);
+        TFM_Util.playerMsg(sender_p, "Edited by: iHess, and XGreenPlayz12", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "§5Made in the image of the §9TFM", ChatColor.GOLD);
         TFM_Util.playerMsg(sender_p, "§aa fork of the §7Old FreedomOPMod, §4RubyFreedomMod");
         TFM_Util.playerMsg(sender_p, "§5DevelopedFreedomMod§7, and §cBoomFreedomMod§a!");
