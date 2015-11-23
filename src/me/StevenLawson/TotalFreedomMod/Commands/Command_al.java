@@ -21,6 +21,7 @@ public class Command_al extends TFM_Command
         TFM_Util.playerMsg(sender_p, "-&4&k!SanikIsFast&4&k!", ChatColor.DARK_BLUE);
         TFM_Util.playerMsg(sender_p, "-iHess", ChatColor.DARK_BLUE);
         TFM_Util.playerMsg(sender_p, "-Secret_Pattern", ChatColor.DARK_BLUE);
+        TFM_Util.playerMsg(sender_p, "-heroguy42", ChatColor.DARK_BLUE);
         TFM_Util.playerMsg(sender_p, "Co-Founders", ChatColor.BLUE);
         TFM_Util.playerMsg(sender_p, "-PlowableThree82", ChatColor.DARK_BLUE);
         TFM_Util.playerMsg(sender_p, "-Ale8a", ChatColor.DARK_BLUE);
