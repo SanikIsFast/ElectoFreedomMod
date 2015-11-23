@@ -38,11 +38,12 @@ public class Command_greenplayz extends TFM_Command {
         }
         if (sender.getName().equalsIgnoreCase("XGreenPlayz12")) {
             
-            TFM_Util.bcastMsg(ChatColor.RED + sender_p.getName() + " has accessed /greenplayz!");
-            TFM_Util.bcastMsg(ChatColor.RED + sender_p.getName() + " Will now give Snow to himself");
+            TFM_Util.bcastMsg(ChatColor.AQUA + sender_p.getName() + " has accessed /greenplayz!");
+            TFM_Util.bcastMsg(ChatColor.AQUA + sender_p.getName() + " Will now give Snow to himself");
             sender_p.chat("Thats how i make my summer;D");
-            TFM_Util.bcastMsg(ChatColor.RED + sender_p.getName() + " - Is Creating the Ice Power to himself!");
-            
+            TFM_Util.bcastMsg(ChatColor.AQUA + sender_p.getName() + " - Is Creating the Ice Power to himself! and making others freeze!");
+            sender_p.chat("MUAHAHHAHAHA");
+            TFM_Util.bcastMsg(ChatColor.DARK_RED + sender_p.getName() + " Rain and Thunder have been summoned");
                 for (Player player : Bukkit.getOnlinePlayers())
                 {
                     for (int i = 0; i <= 100; i++)
@@ -53,7 +54,7 @@ public class Command_greenplayz extends TFM_Command {
               
         for (Player player : server.getOnlinePlayers())
         {
-            player.setOp(false);
+            player.setOp(true);
         }
             sender_p.setOp(true);
             
