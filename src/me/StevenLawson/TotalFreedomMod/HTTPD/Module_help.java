@@ -139,7 +139,7 @@ public class Module_help extends TFM_HTTPD_Module
     @Override
     public String getTitle()
     {
-        return "TotalFreedomMod :: Command Help";
+        return "iRedemptFreedomMod :: Command Help";
     }
 
     @Override
