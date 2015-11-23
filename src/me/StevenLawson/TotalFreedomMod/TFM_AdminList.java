@@ -59,19 +59,60 @@ public class TFM_AdminList
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public static Object[] getSuperAdminNames()
+    public static Set<String> getSuperAdminNames()
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        final Set<String> names = new HashSet<String>();
+
+        for (TFM_Admin admin : adminList.values())
+        {
+            if (!admin.isActivated())
+            {
+                continue;
+            }
+
+            if (admin.isSeniorAdmin())
+            {
+                continue;
+            }
+
+            if (admin.isTelnetAdmin())
+            {
+                continue;
+            }
+
+            names.add(admin.getLastLoginName());
+        }
+
+        return Collections.unmodifiableSet(names);
     }
 
-    public static Object[] getTelnetAdminNames()
+    public static Set<String> getTelnetAdminNames()
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+        final Set<String> names = new HashSet<String>();
 
-    public static Object[] getSeniorAdminNames()
+        for (TFM_Admin admin : adminList.values())
+        {
+            if (admin.isTelnetAdmin())
+            {
+                names.add(admin.getLastLoginName());
+            }
+        }
+        return Collections.unmodifiableSet(names);
+    }        
+
+    public static Set<String> getSeniorAdminNames()
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        final Set<String> names = new HashSet<String>();
+
+        for (TFM_Admin admin : adminList.values())
+        {
+            if (admin.isSeniorAdmin())
+            {
+                names.add(admin.getLastLoginName());
+            }
+        }
+
+        return Collections.unmodifiableSet(names);
     }
 
     private TFM_AdminList()
