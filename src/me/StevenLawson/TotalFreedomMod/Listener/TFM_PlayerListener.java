@@ -961,7 +961,7 @@ public class TFM_PlayerListener implements Listener
             if (TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
             {
                 player.sendMessage(ChatColor.RED + "Welcome, " + player.getName() + "!");
-                player.sendMessage(ChatColor.RED+ "You are currently a " + ChatColor.DARK_RED + "Owner");
+                player.sendMessage(ChatColor.RED+ "You are currently a " + ChatColor.DARK_RED + "Founder");
                 player.sendMessage(ChatColor.GRAY + "Connect with via Telnet Client to connect to the via server");
                 TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
                 player.setPlayerListName(ChatColor.DARK_RED + name);
@@ -974,6 +974,22 @@ public class TFM_PlayerListener implements Listener
                 TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
                 player.setPlayerListName(ChatColor.GOLD + name);
                 TFM_PlayerData.getPlayerData(player).setTag("&8[&6Moderator&8]");
+                afterNameSet(player);
+                return;
+            }
+            if (TFM_ConfigEntry.SERVER_LEADSPEC.getList().contains(name))
+            {
+                TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
+                player.setPlayerListName(ChatColor.GREEN + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&aLead Specialist&8]");
+                afterNameSet(player);
+                return;
+            }
+            if (TFM_ConfigEntry.SERVER_LEADEXE.getList().contains(name))
+            {
+                TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
+                player.setPlayerListName(ChatColor.YELLOW + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&eLead Executive&8]");
                 afterNameSet(player);
                 return;
             }            
