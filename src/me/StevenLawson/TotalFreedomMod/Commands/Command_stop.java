@@ -6,7 +6,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-@CommandPermissions(level = AdminLevel.SUPER, source = SourceType.BOTH)
+@CommandPermissions(level = AdminLevel.SENIOR, source = SourceType.BOTH)
 @CommandParameters(description = "Kicks everyone and stops the server.", usage = "/<command>")
 public class Command_stop extends TFM_Command
 {
@@ -17,7 +17,7 @@ public class Command_stop extends TFM_Command
 
         for (Player player : server.getOnlinePlayers())
         {
-            player.kickPlayer("Server is going offline, come back in about 20 seconds.");
+            player.kickPlayer("Server is currently closed, come back later!");
         }
 
         server.shutdown();
