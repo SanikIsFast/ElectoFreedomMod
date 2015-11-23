@@ -22,6 +22,7 @@ public enum TFM_PlayerRank
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
     OP("an " + ChatColor.RED + "OP", ChatColor.translateAlternateColorCodes('&', "&8[&cOP&8]&9")),
     LEAD_SPECIALIST("the " + ChatColor.GREEN + "Lead Specialist", ChatColor.translateAlternateColorCodes('&', "&8[&aL&7-&aSpecialist&8]&9")),
+    LEAD_EXECUTIVE("the " + ChatColor.YELLOW + "Lead Executive", ChatColor.translateAlternateColorCodes('&', "&8[&eL&7-&eExecutive&8]&9")),
     SPECIALIST("a " + ChatColor.GREEN + "Specialist", ChatColor.translateAlternateColorCodes('&', "&8[&aSpecialist&8]&9")),
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.translateAlternateColorCodes('&', "&8[&bSuper Admin&8]&9")),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.translateAlternateColorCodes('&', "&8[&2Telnet Admin&8]&9")),
@@ -134,6 +135,14 @@ public enum TFM_PlayerRank
             if (TFM_ConfigEntry.SERVER_MODERATORS.getList().contains(sender.getName()))
             {
                 return MODERATORS;
+            }
+            if (TFM_ConfigEntry.SERVER_LEADSPEC.getList().contains(sender.getName()))
+            {
+                return LEAD_SPECIALIST;
+            }
+            if (TFM_ConfigEntry.SERVER_LEADEXE.getList().contains(sender.getName()))
+            {
+                return LEAD_EXECUTIVE;
             }            
 
             if (entry.isSeniorAdmin())
