@@ -31,7 +31,7 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 
 @SuppressWarnings("deprecation")
-public class CleanroomChunkGenerator extends ChunkGenerator
+public class CleanroomChuckGenerator extends ChunkGenerator
 {
     private static final Logger log = Bukkit.getLogger();
     private short[] layer;
