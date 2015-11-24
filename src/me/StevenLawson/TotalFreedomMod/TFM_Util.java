@@ -71,7 +71,7 @@ public class TFM_Util
     public static final List<String> FOP_DEVELOPERS = Arrays.asList("Paldiu", "xDestroyer217", "Freelix2000", "Cyro1999");
     public static final List<String> RF_DEVELOPERS = Arrays.asList("Hockeyfan360", "Revival3");
     public static final List<String> DEVELOPERS = Arrays.asList("XGreenPlayz12");
-    public static final List<String> SYS = Arrays.asList("RemiXedFuzZion");
+    public static final List<String> SYS = Arrays.asList("");
     public static final List<String> SPECIALISTS = Arrays.asList("");
     public static final List<String> EXECUTIVES = Arrays.asList("");
     public static final List<String> COOWNER = Arrays.asList("PlowableThree82", "xNebula_", "Ale8a");
@@ -79,7 +79,7 @@ public class TFM_Util
     public static final List<String> LEADDEV = Arrays.asList("");
     public static final List<String> STAFFMNGER = Arrays.asList("john320670");
     public static final List<String> HEADADM = Arrays.asList("oscarpahlman");
-    public static final List<String> ADMINMNGER = Arrays.asList("");
+    public static final List<String> ADMINMNGER = Arrays.asList("RemiXedFuzZion");
     private static final Random RANDOM = new Random();
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";
     public static final Map<String, ChatColor> CHAT_COLOR_NAMES = new HashMap<String, ChatColor>();
