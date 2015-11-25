@@ -1014,6 +1014,7 @@ public class TFM_PlayerListener implements Listener
                 TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
                 player.setPlayerListName(ChatColor.AQUA + name);
                 TFM_PlayerData.getPlayerData(player).setTag("&8[&BSuper Admin&8]");
+                afterNameSet(player); // without the afterNameSet(player);, the SuperAdmin rank wouldn't work
                 return;
             }
         }
