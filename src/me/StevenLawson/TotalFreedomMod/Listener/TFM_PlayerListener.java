@@ -1057,7 +1057,7 @@ public class TFM_PlayerListener implements Listener
         TFM_ServerInterface.handlePlayerLogin(event);
     }
 
-    public static void afterNameSet(Player player)
+    public static void afterNameSet(final Player player)
     {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
