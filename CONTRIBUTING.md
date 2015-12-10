@@ -90,7 +90,6 @@ meaning you can't remove your current IP or an IP that doesn't belong to you.
 * Please do not spread your contribution over several pull-requests.
 
 ## Additional Resources ##
-* [TotalFreedom information](http://totalfreedom.me)
-* [TotalFreedom forums](http://totalfreedom.boardnet)
+* [iRedemptFreedom information](http://iredemptfreedom.board.net)
 * [General GitHub documentation](http://help.github.com/)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/)
