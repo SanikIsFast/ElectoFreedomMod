@@ -15,7 +15,7 @@ admins:
     is_activated: true
     is_telnet_admin: false
     is_senior_admin: false
-    last_login: Sun, 22 Nov 2015 23:01:24 -0500
+    last_login: Sat, 12 Dec 2015 13:22:37 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -35,7 +35,7 @@ admins:
     is_activated: true
     is_telnet_admin: false
     is_senior_admin: false
-    last_login: Sun, 22 Nov 2015 17:24:24 -0500
+    last_login: Sat, 12 Dec 2015 15:01:18 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -85,8 +85,8 @@ admins:
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
-    last_login: Sun, 22 Nov 2015 18:57:52 -0500
-    custom_login_message: a &dSenior Admin &band the &3&lUltimate guardian
+    last_login: Sat, 12 Dec 2015 13:18:24 -0500
+    custom_login_message: a &4Founder &band the &3&lUltimate guardian
     console_aliases: []
     ips:
     - 76.229.227.137
@@ -125,27 +125,29 @@ admins:
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: false
-    last_login: Mon, 23 Nov 2015 12:06:05 -0500
+    last_login: Sat, 12 Dec 2015 13:41:14 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
     - 2.28.198.14
+    - 95.150.184.10
   deadbeef-032d-be76-67ed-8bf42079ba51:
     last_login_name: AjahnLek
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: false
-    last_login: Sun, 22 Nov 2015 22:12:14 -0500
+    last_login: Sat, 12 Dec 2015 14:08:58 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
     - 97.127.7.98
+    - 97.127.126.5
   deadbeef-e887-1c90-dc72-56922813e74c:
     last_login_name: Parkerfd9dy
     is_activated: true
     is_telnet_admin: false
     is_senior_admin: false
-    last_login: Mon, 23 Nov 2015 11:27:15 -0500
+    last_login: Sat, 12 Dec 2015 11:49:05 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -155,7 +157,7 @@ admins:
     is_activated: true
     is_telnet_admin: false
     is_senior_admin: false
-    last_login: Sun, 22 Nov 2015 23:19:47 -0500
+    last_login: Sat, 12 Dec 2015 13:18:25 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -165,27 +167,17 @@ admins:
     is_activated: true
     is_telnet_admin: false
     is_senior_admin: false
-    last_login: Sun, 22 Nov 2015 21:00:51 -0500
+    last_login: Sat, 12 Dec 2015 14:55:06 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
     - 96.249.236.65
-  deadbeef-6f66-a406-187e-c358dc0938b4:
-    last_login_name: iHess
-    is_activated: true
-    is_telnet_admin: true
-    is_senior_admin: true
-    last_login: Mon, 23 Nov 2015 12:04:01 -0500
-    custom_login_message: ''
-    console_aliases: []
-    ips:
-    - 108.228.24.137
   deadbeef-c0f3-8716-d0fa-2adc8b980089:
     last_login_name: SanikIsFast
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
-    last_login: Sun, 22 Nov 2015 22:58:21 -0500
+    last_login: Sat, 12 Dec 2015 15:04:13 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -216,7 +208,7 @@ admins:
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
-    last_login: Mon, 23 Nov 2015 00:10:37 -0500
+    last_login: Sat, 12 Dec 2015 14:51:43 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
@@ -248,8 +240,118 @@ admins:
     is_activated: true
     is_telnet_admin: true
     is_senior_admin: true
-    last_login: Mon, 23 Nov 2015 11:17:38 -0500
+    last_login: Sat, 12 Dec 2015 14:51:49 -0500
     custom_login_message: ''
     console_aliases: []
     ips:
     - 45.18.50.187
+  deadbeef-da36-ab23-4138-9ccffd97eb4e:
+    last_login_name: xYuchi
+    is_activated: true
+    is_telnet_admin: true
+    is_senior_admin: true
+    last_login: Sat, 12 Dec 2015 13:24:28 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 108.228.24.137
+  deadbeef-e36a-e4b3-6ae6-3f3d20766ce4:
+    last_login_name: SomeSexyCake
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 15:07:00 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 66.66.218.251
+  b6147ae4-2a32-403f-a1ef-e5300f689d6a:
+    last_login_name: sethawesomeness
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 11:39:16 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 71.255.45.219
+  deadbeef-1ece-f57e-245c-b1bf13fcaefd:
+    last_login_name: DoomedSoul
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 11:26:35 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 24.223.203.136
+  deadbeef-6a71-46db-dc64-8b150469c0e3:
+    last_login_name: hakkaMagic
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 14:58:35 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 74.15.6.36
+  0313a38b-70df-4535-a543-b1b545bf8b93:
+    last_login_name: happydude0000
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 13:41:25 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 66.97.204.171
+  8bc7ff61-9ed6-491e-ba32-9824df3f030d:
+    last_login_name: thomwenc04
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 13:46:55 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 107.4.162.246
+  deadbeef-feee-d027-8230-5a24aa7875de:
+    last_login_name: Ale8a
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 14:04:52 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 68.36.171.39
+  deadbeef-dc9e-8774-976a-cce47e0c2d68:
+    last_login_name: OxigeNN
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 14:51:50 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 46.7.191.74
+  74a3ecd9-871c-4420-adc9-d548bd565a69:
+    last_login_name: heroguy42
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 15:02:52 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 173.245.67.155
+  deadbeef-0b76-312b-cb91-7b9f5bb4cd77:
+    last_login_name: TetsuYouko
+    is_activated: true
+    is_telnet_admin: false
+    is_senior_admin: false
+    last_login: Sat, 12 Dec 2015 15:14:28 -0500
+    custom_login_message: ''
+    console_aliases: []
+    ips:
+    - 101.184.134.175
