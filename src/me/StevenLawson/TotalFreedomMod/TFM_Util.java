@@ -70,7 +70,7 @@ public class TFM_Util
     public static final List<String> TF_DEVELOPERS = Arrays.asList("Madgeek1450", "Prozza", "DarthSalmon", "AcidicCyanide", "Wild1145", "WickedGamingUK");
     public static final List<String> FOP_DEVELOPERS = Arrays.asList("Paldiu", "xDestroyer217", "Freelix2000", "Cyro1999");
     public static final List<String> RF_DEVELOPERS = Arrays.asList("Hockeyfan360", "Revival3");
-    public static final List<String> DEVELOPERS = Arrays.asList("");
+    public static final List<String> DEVELOPERS = Arrays.asList("DarkGamingDronze");
     public static final List<String> SYS = Arrays.asList("Ale8a");
     public static final List<String> SPECIALISTS = Arrays.asList("");
     public static final List<String> EXECUTIVES = Arrays.asList("");
