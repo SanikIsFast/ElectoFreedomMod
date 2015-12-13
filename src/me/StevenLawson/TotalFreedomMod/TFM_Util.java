@@ -80,6 +80,7 @@ public class TFM_Util
     public static final List<String> STAFFMNGER = Arrays.asList("RemiXedFuzZion");
     public static final List<String> HEADADM = Arrays.asList("oscarpahlman");
     public static final List<String> ADMINMNGER = Arrays.asList("");
+    public static final List<String> HOST = Arrays.asList("SomeSexyCake");
     private static final Random RANDOM = new Random();
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";
     public static final Map<String, ChatColor> CHAT_COLOR_NAMES = new HashMap<String, ChatColor>();
