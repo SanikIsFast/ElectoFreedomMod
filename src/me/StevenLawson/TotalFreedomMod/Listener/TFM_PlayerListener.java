@@ -955,7 +955,22 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&4Main Founder&8]");
             afterNameSet(player);
             return;
-        }                
+        }
+        else if (TFM_DonatorList.isDonator(player)) {
+            
+            if (TFM_DonatorList.isDonatorPlus(player)) {
+                player.setPlayerListName(ChatColor.DARK_BLUE + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&1Donator&b+&8]");
+                afterNameSet(player);
+                return;                
+            }
+            if (TFM_DonatorList.isDonator(player)) {
+                player.setPlayerListName(ChatColor.DARK_BLUE + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&1Donator&8]");
+                afterNameSet(player);
+                return;                
+            }
+        }        
         else if (TFM_AdminList.isSuperAdmin(player))
         {
             if (TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
