@@ -36,6 +36,7 @@ public enum TFM_PlayerRank
     MFOUNDER("the " + ChatColor.DARK_RED + "Main Founder" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Main Founder&8]&9")),    
     HADMIN("the " + ChatColor.YELLOW + "Head Admin" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&eHead Admin&8]&9")),
     STAFFMANAGE("the " + ChatColor.RED + "Staff Manager" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&cStaff Manager&8]&9")),
+    HOSTER("the " + ChatColor.GOLD + "Host" + ChatColor.AQUA + " of " + ChatColor.RED + "iRedemptFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&6&lHost&8]&9")),
     CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.translateAlternateColorCodes('&', "&8[&5Console&8]&9"));
     private final String loginMessage;
     private final String prefix;
@@ -120,7 +121,11 @@ public enum TFM_PlayerRank
         else if (HEADADM.contains(sender.getName()))
         {
             return HADMIN;
-        }        
+        }   
+        else if (HOST.contains(sender.getName()))
+        {
+            return HOSTER;
+        }
 
         final TFM_Admin entry = TFM_AdminList.getEntryByIp(TFM_Util.getIp((Player) sender));
 
