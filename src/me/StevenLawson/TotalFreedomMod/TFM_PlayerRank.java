@@ -9,6 +9,7 @@ import static me.StevenLawson.TotalFreedomMod.TFM_Util.SYS;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.LEADDEV;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.STAFFMNGER;
 import static me.StevenLawson.TotalFreedomMod.TFM_Util.HEADADM;
+import static me.StevenLawson.TotalFreedomMod.TFM_Util.HOST;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
