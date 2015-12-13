@@ -75,7 +75,7 @@ public class TFM_Util
     public static final List<String> SPECIALISTS = Arrays.asList("");
     public static final List<String> EXECUTIVES = Arrays.asList("");
     public static final List<String> COOWNER = Arrays.asList("PlowableThree82");
-    public static final List<String> MOWNER = Arrays.asList("SanikIsFast", "SecretPattern", "heroguy42");
+    public static final List<String> MOWNER = Arrays.asList("SanikIsFast", "SecretPattern");
     public static final List<String> LEADDEV = Arrays.asList("XGreenPlayz12");
     public static final List<String> STAFFMNGER = Arrays.asList("john320670");
     public static final List<String> HEADADM = Arrays.asList("oscarpahlman");
