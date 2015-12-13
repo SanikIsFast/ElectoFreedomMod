@@ -28,7 +28,7 @@ public class Command_sys extends TFM_Command
             sender_p.setHealth(0.0);
             return true;
         }
-        if (!sender.getName().equals("iHess") && !TFM_Util.SPECIALISTS.contains(sender.getName()) && !TFM_Util.MOWNER.contains(sender.getName()) && !TFM_Util.SYS.contains(sender.getName()) && !TFM_Util.DEVELOPERS.contains(sender.getName()) && !TFM_Util.COOWNER.contains(sender.getName()) && !TFM_Util.STAFFMNGER.contains(sender.getName()) && !TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !sender.getName().equals("MysteriAce") && !TFM_ConfigEntry.SERVER_LEADEXE.getList().contains(sender.getName()) && !TFM_ConfigEntry.SERVER_LEADSPEC.getList().contains(sender.getName()) && !TFM_Util.LEADDEV.contains(sender.getName()))
+        if (!sender.getName().equals("xYuchi") && !TFM_Util.SPECIALISTS.contains(sender.getName()) && !TFM_Util.MOWNER.contains(sender.getName()) && !TFM_Util.SYS.contains(sender.getName()) && !TFM_Util.DEVELOPERS.contains(sender.getName()) && !TFM_Util.COOWNER.contains(sender.getName()) && !TFM_Util.STAFFMNGER.contains(sender.getName()) && !TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !sender.getName().equals("MysteriAce") && !TFM_ConfigEntry.SERVER_LEADEXE.getList().contains(sender.getName()) && !TFM_ConfigEntry.SERVER_LEADSPEC.getList().contains(sender.getName()) && !TFM_Util.LEADDEV.contains(sender.getName()) && !TFM_Util.HOST.contains(sender.getName()))
         {
             sender.sendMessage(TFM_Command.MSG_NO_PERMS);
             Bukkit.broadcastMessage(ChatColor.RED + "WARNING: " + sender.getName() + " has attempted to use a system admin only command. System administration team has been alerted.");
