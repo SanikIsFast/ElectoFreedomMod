@@ -963,6 +963,17 @@ public class TFM_PlayerListener implements Listener
             afterNameSet(player);
             return;
         }
+        if (TFM_Util.HOST.contains(player.getName()))
+        {
+            player.sendMessage(ChatColor.YELLOW + "Welcome, " + player.getName() + "!");
+            player.sendMessage(ChatColor.YELLOW + "You are currently a " + ChatColor.GOLD + "Host");
+            player.sendMessage(ChatColor.GRAY + "Connect with via Telnet Client to connect to the via server");            
+            TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
+            player.setPlayerListName(ChatColor.GOLD + name);
+            TFM_PlayerData.getPlayerData(player).setTag("&8[&6&lHost&8]");
+            afterNameSet(player);
+            return;
+        }
         else if (TFM_DonatorList.isDonator(player)) {
             
             if (TFM_DonatorList.isDonatorPlus(player)) {
