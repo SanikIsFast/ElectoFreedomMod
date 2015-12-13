@@ -106,6 +106,8 @@ public class TFM_PlayerData
     private boolean verifiedSuperadminId = false;
     private String lastCommand = "";
     private boolean cmdspyEnabled = false;
+    private boolean inGod = false;
+    private boolean isDoubleJumper = false;    
     private String tag = null;
     private int warningCount = 0;
 
@@ -565,24 +567,24 @@ public class TFM_PlayerData
         }
     }
 
-    boolean inGod()
+    public boolean inGod()
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.inGod;
     }
 
-    void setGod(boolean enabled)
+    public void setGod(boolean state)
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.inGod = state;
     }
 
-    boolean isDoubleJumper()
+    public boolean isDoubleJumper()
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.isDoubleJumper;
     }
 
-    void setDoubleJumper(boolean state)
+    public void setDoubleJumper(boolean state)
     {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.isDoubleJumper = state;
     }
 
     public enum CageLayer
