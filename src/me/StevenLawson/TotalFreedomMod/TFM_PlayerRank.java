@@ -107,7 +107,7 @@ public enum TFM_PlayerRank
         }
         else if (MOWNER.contains(sender.getName()))
         {
-            return MFOUNDER;
+            return MFOUNDER;SecretPattern
         }
         else if (STAFFMNGER.contains(sender.getName()))
         {
