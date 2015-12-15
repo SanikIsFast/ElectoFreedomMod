@@ -14,9 +14,9 @@ public class Command_sexy extends TFM_Command
     {
         sender_p.chat("Guys!");
         sender_p.chat("I found out something!");
-        sender_p.chat("SecretPattern is very sexy and is the best owner i ever saw!");
-        playerMsg("You just said SecretPattern is sexy! :O", ChatColor.RED);
-        playerMsg("Your Words were 100% true, SecretPattern is sexy, and he's our Owner! :D", ChatColor.YELLOW);                
+        sender_p.chat("Duckeroo is very sexy and is the best owner i ever saw!");
+        playerMsg("You just said Duckeroo is sexy! :O", ChatColor.RED);
+        playerMsg("Your Words were 100% true, Duckeroo is sexy, and he's our Owner! :D", ChatColor.YELLOW);                
         return true;
         
     }
