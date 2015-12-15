@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @CommandPermissions(level = AdminLevel.ALL, source = SourceType.BOTH)
-@CommandParameters(description = "DarkGamingDronze is totally sexy!", usage = "/<command>")
+@CommandParameters(description = "Duckeroo is totally sexy!", usage = "/<command>")
 public class Command_sexy extends TFM_Command
 {
     @Override
