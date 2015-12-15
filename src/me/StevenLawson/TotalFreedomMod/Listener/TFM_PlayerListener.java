@@ -644,28 +644,6 @@ public class TFM_PlayerListener implements Listener
                 TFM_Sync.adminChatMessage(player, message, false);
                 event.setCancelled(true);
                 return;
-            }
-            // Check for donatorchat
-            if (playerdata.inDonatorChat())
-            {
-                TFM_Sync.donatorChatMessage(player, message, false);
-                event.setCancelled(true);
-                return;
-            }
-
-            // Finally, set message
-            event.setMessage(message);
-
-            // Set the tag
-            if (playerdata.getTag() != null)
-            {
-                event.setFormat("<" + playerdata.getTag().replaceAll("%", "%%") + " %1$s> %2$s");
-            }
-        }
-        catch (Exception ex)
-        {
-            TFM_Log.severe(ex);
-        }
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)
@@ -962,32 +940,7 @@ public class TFM_PlayerListener implements Listener
             TFM_PlayerData.getPlayerData(player).setTag("&8[&4Main Founder&8]");
             afterNameSet(player);
             return;
-        }
-        if (TFM_Util.HOST.contains(player.getName()))
-        {
-            player.sendMessage(ChatColor.YELLOW + "Welcome, " + player.getName() + "!");
-            player.sendMessage(ChatColor.YELLOW + "You are currently a " + ChatColor.GOLD + "Host");
-            player.sendMessage(ChatColor.GRAY + "Connect with via Telnet Client to connect to the via server");            
-            TFM_PlayerData.getPlayerData(player).setCommandSpy(true);
-            player.setPlayerListName(ChatColor.GOLD + name);
-            TFM_PlayerData.getPlayerData(player).setTag("&8[&6&lHost&8]");
-            afterNameSet(player);
-            return;
-        }
-        else if (TFM_DonatorList.isDonator(player)) {
-            
-            if (TFM_DonatorList.isDonatorPlus(player)) {
-                player.setPlayerListName(ChatColor.DARK_BLUE + name);
-                TFM_PlayerData.getPlayerData(player).setTag("&8[&1Donator&b+&8]");
-                afterNameSet(player);
-                return;                
-            }
-            if (TFM_DonatorList.isDonator(player)) {
-                player.setPlayerListName(ChatColor.DARK_BLUE + name);
-                TFM_PlayerData.getPlayerData(player).setTag("&8[&1Donator&8]");
-                afterNameSet(player);
-                return;                
-            }
+       
         }        
         else if (TFM_AdminList.isSuperAdmin(player))
         {
