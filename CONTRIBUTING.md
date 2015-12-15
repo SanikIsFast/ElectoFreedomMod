@@ -1,12 +1,12 @@
-# Contributing to iRedemptFreedomMod #
-iRedemptFreedomMod is a Spigot server plugin designed primarily to support the [Official iRedemptFreedomMod Minecraft Server](http://iredemptfreedom.boards.net/). However, it can be used in a variety of other configurations with minimal fuss.
+# Contributing to ElectoFreedomMod #
+iRedemptFreedomMod is a Spigot server plugin designed primarily to support the [Official ElectoFreedommod Minecraft Server](http://electofreedom.boards.net/). However, it can be used in a variety of other configurations with minimal fuss.
 
 For those who wish to contribute, we encourage you to fork the repository and submit pull requests. Below you will find guidelines that explain this process in further detail.
 
 ## Quick Guide ##
-1. Create or find an issue on our [Issue Tracker](https://github.com/iRedemptFreedom/iRedemptFreedomMod/issues).
-2. Does your change fits iRedemptFreedomMod's goals?
-3. Fork iRedemptFreedomMod if you haven't done so already.
+1. Create or find an issue on our [Issue Tracker](https://github.com/SanikIsFast/iRedemptFreedomMod/issues).
+2. Does your change fits ElectoFreedomMod's goals?
+3. Fork ElectroFreedomMod if you haven't done so already.
 4. Make a branch dedicated to your change.
 5. Make your change.
 6. Commit your change according to the [committing guidelines](#committing-your-changes).
