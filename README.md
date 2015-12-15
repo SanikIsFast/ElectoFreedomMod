@@ -1,4 +1,4 @@
-# iRedemptFreedomMod #
+# ElectoFreedomMod #
 
 ElectoFreedomMod is a CraftBukkit server plugin designed primarily to support the [Official ElectoFreedom Minecraft Server](http://electrofreedom.boards.net/). However, you are more than welcome to adapt the source for your own server.
 
